@@ -38,11 +38,11 @@ public class Main {
             }
         }
         
-        // checks there are three x in the first diagonal
+        // checks if there are three x in the first diagonal
         if (grid[0][0] == 'x' && grid[1][1] == 'x' && grid[2][2] == 'x') {
             result = x;
         }
-        // checks there are three x in the second diagonal
+        // checks if there are three x in the second diagonal
         if (grid[2][0] == 'x' && grid[1][1] == 'x' && grid[0][2] == 'x') {
             result = x;
         }
